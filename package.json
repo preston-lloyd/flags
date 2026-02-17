@@ -20,7 +20,7 @@
   "keywords": [],
   "author": "Preston Lloyd",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/preston-lloyd/flags/issues"
   },
