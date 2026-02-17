@@ -1,0 +1,35 @@
+{
+  "name": "@preston-lloyd/flags",
+  "version": "0.1.0",
+  "description": "Lightweight feature flag system for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preston-lloyd/flags.git"
+  },
+  "keywords": [],
+  "author": "Preston Lloyd",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/preston-lloyd/flags/issues"
+  },
+  "homepage": "https://github.com/preston-lloyd/flags#readme",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "eslint": "^10.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
